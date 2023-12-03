@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Hedvig+Letters+Serif:opsz@12..24&family=Indie+Flower&family=Nova+Square&family=Poppins:ital,wght@0,500;0,600;1,400;1,500&family=Roboto:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="mainOfNavbar">
+      <p class="logoOfCompany">Landing</p>
+      <ul class="ulList ulListSecond">
+        <a href="#" class="anchorOfList"> <li class="listOfSection">Home</li> </a>
+        <a href="#" class="anchorOfList"> <li class="listOfSection">About</li></a>
+        <a href="#" class="anchorOfList"> <li class="listOfSection">Skills</li></a>
+        <a href="#" class="anchorOfList"> <li class="listOfSection">Project</li></a>
+        <a href="#" class="anchorOfList"> <li class="listOfSection">Contact</li></a>
+      </ul>
+         <button id="btnOfHamburger" class="hamburgerIcon"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+     <div class="homeSection">
+         <div class="leftSection">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF7h8ZvDkGNEXDXYWdm57J2AOplQmXxyk26g&usqp=CAU" alt="">
+         </div>
+         <div class="rightSection">
+              <h1 class="headingOfAbout">Hii,myself Steaven <br/> i'm Full Stack developer</h1>
+              <button class="aboutMeBtn">About Me</button>
+              <div class="containerOfSocialMedia">
+
+                <a class="socialAnchor" href="#"><button class="btnOfSocial"><i class="fa-brands fa-linkedin"></i></button></a>
+                <a class="socialAnchor" href="#"><button class="btnOfSocial"><i class="fa-brands fa-github"></i></i></button></a>
+           </div>
+         </div>
+     </div>
+      <div class="aboutSection">
+         <h1 class="aboutHeading">I'm Steaven</h1>
+         <p class="aboutDescription">
+          As a full-stack developer, I create visually appealing and interactive frontend experiences using HTML, CSS, and JavaScript, while also building robust backend systems with languages like Node.js or Python, often leveraging frameworks like React or Django for efficient development. Additionally, I work with databases, APIs, and deployment tools to ensure seamless end-to-end functionality.</p>
+      </div>
+       <div >
+          <h1 class="contact">Skills</h1>
+          <div class="skillsSection">
+
+            <div class="skillsHave">HTML</div>
+            <div class="skillsHave">CSS</div>
+            <div class="skillsHave">Javascript</div>
+           <div class="skillsHave">React</div>
+           <div class="skillsHave">Node.js</div>
+           <div class="skillsHave">Express.js</div>
+           <div class="skillsHave">MongoDB</div>
+           <div class="skillsHave">Tailwind</div>
+          </div>
+       </div>
+      <div class="contactSection">
+        <h2 class="contact">Contact Me</h2>
+        <p class="contactHeading">If you would like to get in touch, feel free to send me a message.</p>
+  
+        <form action="#" class="form" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button class="sendBtn" type="submit">Send Message</button>
+        </form>
+   
+        <div class="social-media">
+          <h3 class="contactSocial">Connect with Me</h3>
+          <a class="socialIcon"  href="#" target="_blank" rel="noopener noreferrer">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
+          <a class="socialIcon" href="#" target="_blank" rel="noopener noreferrer">GitHub<i class="fa-brands fa-github"></i></a>
+          
+        </div>
+      </div>
+
+  </body>
+  <script src="script.js"></script>
+</html>
