@@ -142,8 +142,8 @@ body {
     text-decoration: none;
     color: white;
 }
-.fa-brands {
-    color: rgb(122, 225, 225);
+.btn{
+  color: rgb(122, 225, 225);
 }
 .contactSocial{
     color: rgb(122, 225, 225);
