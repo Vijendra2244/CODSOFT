@@ -157,9 +157,15 @@ body {
     font-family: "Nova Square", sans-serif;
     padding: 1.4rem;
     color:white;
-}
+  }
 .skillsHave{
    font-size: 2rem;
+}
+.copyRight{
+  font-family: "Nova Square", sans-serif;
+  color: white;
+  text-align: center;
+
 }
 @media screen and (max-width: 640px) {
   .hamburgerIcon {
