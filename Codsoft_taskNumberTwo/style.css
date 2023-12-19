@@ -1,0 +1,147 @@
+.navbarContaner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-family: "Kalnia", serif;
+  height: 50px;
+  background: linear-gradient(135deg, rgb(209, 26, 145), rgb(245, 84, 25));
+}
+.ulListContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ulList {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  list-style: none;
+  cursor: pointer;
+}
+.landing {
+  margin-left: 0.4rem;
+}
+.btnBuy {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(255, 174, 0);
+}
+.btnSearch {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.image {
+  width: 100%;
+  height: 600px;
+}
+.launch {
+  color: white;
+  font-family: "Kalnia", serif;
+  background: linear-gradient(135deg, rgb(209, 26, 145), rgb(245, 84, 25));
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.launchContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.iconsOne {
+  font-size: 1.5rem;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+  font-family: "Kalnia", serif;
+  align-items: center;
+}
+.aboutUs {
+  display: inline-block;
+  border-bottom: 3px solid rgb(209, 26, 145);
+}
+
+.imageMan {
+  max-width: 100%;
+}
+.years {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.para {
+  text-align: justify;
+}
+.read {
+  background: linear-gradient(135deg, rgb(209, 26, 145), rgb(245, 84, 25));
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.5rem;
+  cursor: pointer;
+  columns: white;
+  font-weight: bolder;
+}
+.ourServicesContainer {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.service {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.our{
+  border-bottom: 3px solid rgb(209, 26, 145);
+  display: inline-block;
+}
+.servicesContainer{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.userImage {
+    border-radius: 6px;
+}
+.user{
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .ulListContainer {
+    display: none;
+  }
+}

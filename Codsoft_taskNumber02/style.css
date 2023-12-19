@@ -147,7 +147,7 @@ body {
   color: rgb(122, 225, 225);
 }
 .contactSocial {
-  color: rgb(122, 225, 225);
+  color: c;
 }
 .skillsSection {
   display: flex;
@@ -167,8 +167,35 @@ body {
   color: white;
   text-align: center;
 }
-.hide {
+/* .hide {
   display: none;
+} */
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.projectCard {
+  font-family: "Nova Square", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0.6rem;
+  border-radius: 6px;
+}
+.link {
+  background-color: aqua;
+  color: black;
+  font-family: "Nova Square", sans-serif;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 640px) {
   .hamburgerIcon {
@@ -188,10 +215,10 @@ body {
     width: 90%;
     flex-wrap: wrap;
   }
-  .leftSection{
+  .leftSection {
     width: 50%;
   }
-  .rightSection{
+  .rightSection {
     width: 70%;
   }
   .hide {
@@ -208,13 +235,13 @@ body {
   .listOfSection {
     margin: 1rem 0;
   }
-  .contactSection{
-   max-width: 100%;
+  .contactSection {
+    max-width: 100%;
   }
   .form {
     width: 100%;
   }
-  .social-media{
+  .social-media {
     width: 70%;
     margin-left: 5rem;
   }
